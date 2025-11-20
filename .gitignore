@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/Proxy.FastPay
+/FastPay.API/obj/Debug/net8.0/FastPay.API.AssemblyInfo.cs
+/FastPay.API/obj/Debug/net8.0/FastPay.API.AssemblyInfoInputs.cache
+/FastPay.API/obj/Debug/net8.0/FastPay.API.assets.cache
+/FastPay.API/obj/FastPay.API.csproj.nuget.dgspec.json
+/FastPay.API/obj/FastPay.API.csproj.nuget.g.props
+/FastPay.API/obj/FastPay.API.csproj.nuget.g.targets
+/FastPay.API/obj/project.assets.json
+/FastPay.API/obj/project.nuget.cache

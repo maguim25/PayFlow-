@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  fastpay-api:
+    build:
+      context: .
+      dockerfile: FastPay.API/Dockerfile
+    container_name: fastpay-api
+    ports:
+      - "5000:8080"   # host:container
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
