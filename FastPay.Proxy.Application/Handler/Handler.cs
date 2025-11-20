@@ -35,9 +35,9 @@ namespace FastPay.Proxy.Application.Handler
 				ExternalId = "",
 				Status = "reject",
 				Provider = security.NameProvider,
-				GrossAmount = 120.50m,
+				GrossAmount = 0m,
 				Fee = security.Fee,
-				NetAmount = 116.49m
+				NetAmount = 0m
 			};
 		}
 	}
