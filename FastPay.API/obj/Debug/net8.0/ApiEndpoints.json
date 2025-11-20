@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FastPay.API.Controllers.PaymentController",
+    "Method": "Payment",
+    "RelativePath": "Payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payment",
+        "Type": "FastPay.Proxy.Domain.Dto.Request.PaymentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

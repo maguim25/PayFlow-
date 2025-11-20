@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - FastPay", "0 - FastPay", "{A0BBAFBE-68E0-42C0-BC8F-4F9994C5BF56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastPay.API", "FastPay.API\FastPay.API.csproj", "{9C1A008C-566F-4954-AE2D-F38E787990EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{998426C4-77F9-49D6-8EED-04953DF0437D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastPay.Proxy.Domain", "FastPay.Proxy.Domain\FastPay.Proxy.Domain.csproj", "{31F37C27-8EC7-4F69-8F4C-45336933A430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Applicatiton", "1 - Applicatiton", "{256B6998-82CE-44FE-8ADE-7FADBAD92F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastPay.Proxy.Application", "FastPay.Proxy.Application\FastPay.Proxy.Application.csproj", "{DD690521-BC0B-4FBA-A663-338FEF39B6F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1A008C-566F-4954-AE2D-F38E787990EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1A008C-566F-4954-AE2D-F38E787990EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1A008C-566F-4954-AE2D-F38E787990EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1A008C-566F-4954-AE2D-F38E787990EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F37C27-8EC7-4F69-8F4C-45336933A430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F37C27-8EC7-4F69-8F4C-45336933A430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F37C27-8EC7-4F69-8F4C-45336933A430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F37C27-8EC7-4F69-8F4C-45336933A430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD690521-BC0B-4FBA-A663-338FEF39B6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD690521-BC0B-4FBA-A663-338FEF39B6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD690521-BC0B-4FBA-A663-338FEF39B6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD690521-BC0B-4FBA-A663-338FEF39B6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0BBAFBE-68E0-42C0-BC8F-4F9994C5BF56} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9C1A008C-566F-4954-AE2D-F38E787990EE} = {A0BBAFBE-68E0-42C0-BC8F-4F9994C5BF56}
+		{998426C4-77F9-49D6-8EED-04953DF0437D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{31F37C27-8EC7-4F69-8F4C-45336933A430} = {998426C4-77F9-49D6-8EED-04953DF0437D}
+		{256B6998-82CE-44FE-8ADE-7FADBAD92F72} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DD690521-BC0B-4FBA-A663-338FEF39B6F4} = {256B6998-82CE-44FE-8ADE-7FADBAD92F72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {436A3324-5EB0-4926-A15C-00A4FB9BEFC0}
+	EndGlobalSection
+EndGlobal
